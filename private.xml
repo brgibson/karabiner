@@ -13,31 +13,6 @@
             PointingButton::RIGHT, ModifierFlag::COMMAND_L,
             KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L
         </autogen>
-        <autogen>
-            __ScrollWheelToKey__
-            ScrollWheel::UP, ModifierFlag::COMMAND_L,
-            KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L
-        </autogen>
-        <autogen>
-            __ScrollWheelToKey__
-            ScrollWheel::DOWN, ModifierFlag::COMMAND_L,
-            KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L
-        </autogen>
-    </item>
-    
-    <item>
-        <name>cmd/ctrl + MClick opens exposé</name>
-        <identifier>private.mclick_expose</identifier>
-        <autogen>
-            __KeyToKey__
-            PointingButton::MIDDLE, ModifierFlag::COMMAND_L,
-            KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L
-        </autogen>
-        <autogen>
-            __KeyToKey__
-            PointingButton::MIDDLE, ModifierFlag::CONTROL_L,
-            KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L
-        </autogen>
     </item>
     
     <item>
@@ -53,6 +28,41 @@
             PointingButton::RIGHT, ModifierFlag::CONTROL_L,
             KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L
         </autogen>
+    </item>
+    
+    <item>
+        <name>cmd + ScrollsUp/Down changes mac workspaces</name>
+        <identifier>private.cmd_scrollupdown_workspaces</identifier>
+        <autogen>
+            __ScrollWheelToKey__
+            ScrollWheel::UP, ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+            __ScrollWheelToKey__
+            ScrollWheel::DOWN, ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L
+        </autogen>
+    </item>
+    
+    <item>
+        <name>cmd + ScrollUp/Down opens exposé</name>
+        <identifier>private.cmd_scrollupdown_exposee</identifier>
+        <autogen>
+            __ScrollWheelToKey__
+            ScrollWheel::UP, ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+            __ScrollWheelToKey__
+            ScrollWheel::DOWN, ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_DOWN, ModifierFlag::CONTROL_L
+        </autogen>
+    </item>
+    
+    <item>
+        <name>control + ScrollUp/Down opens exposé</name>
+        <identifier>private.control_scrollupdown_exposee</identifier>
         <autogen>
             __ScrollWheelToKey__
             ScrollWheel::UP, ModifierFlag::CONTROL_L,
@@ -62,6 +72,21 @@
             __ScrollWheelToKey__
             ScrollWheel::DOWN, ModifierFlag::CONTROL_L,
             KeyCode::CURSOR_DOWN, ModifierFlag::CONTROL_L
+        </autogen>
+    </item>
+
+    <item>
+        <name>cmd/ctrl + MClick opens exposé</name>
+        <identifier>private.mclick_expose</identifier>
+        <autogen>
+            __KeyToKey__
+            PointingButton::MIDDLE, ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+            __KeyToKey__
+            PointingButton::MIDDLE, ModifierFlag::CONTROL_L,
+            KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L
         </autogen>
     </item>
 </root>
