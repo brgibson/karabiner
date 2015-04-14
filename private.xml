@@ -1,6 +1,20 @@
 <?xml version="1.0"?>
 <root>
     <item>
+        <name>opt + LClick/RClick changes mac workspaces</name>
+        <identifier>private.opt_lclick_rclick</identifier>
+        <autogen>
+            __KeyToKey__
+            PointingButton::LEFT, ModifierFlag::OPTION_L,
+            KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+            __KeyToKey__
+            PointingButton::RIGHT, ModifierFlag::OPTION_L,
+            KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L
+        </autogen>
+    </item>
+    <item>
         <name>cmd + LClick/RClick changes mac workspaces</name>
         <identifier>private.cmd_lclick_rclick</identifier>
         <autogen>
