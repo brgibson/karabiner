@@ -1,6 +1,20 @@
 <?xml version="1.0"?>
 <root>
     <item>
+        <name>Logitech previous/next track fix</name>
+        <identifier>private.logitech_previousnext_track_fix</identifier>
+        <autogen>
+            __KeyToKey__
+            ConsumerKeyCode::MUSIC_PREV_18,
+            ConsumerKeyCode::MUSIC_PREV
+        </autogen>
+        <autogen>
+            __KeyToKey__
+            ConsumerKeyCode::MUSIC_NEXT_17,
+            ConsumerKeyCode::MUSIC_NEXT
+        </autogen>
+    </item>
+    <item>
         <name>opt + LClick/RClick changes mac workspaces</name>
         <identifier>private.opt_lclick_rclick</identifier>
         <autogen>
