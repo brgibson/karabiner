@@ -60,6 +60,21 @@
     </item>
     
     <item>
+        <name>opt + ScrollUp/Down opens exposé</name>
+        <identifier>private.opt_scrollupdown_exposee</identifier>
+        <autogen>
+            __ScrollWheelToKey__
+            ScrollWheel::UP, ModifierFlag::OPTION_L,
+            KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+            __ScrollWheelToKey__
+            ScrollWheel::DOWN, ModifierFlag::OPTION_L,
+            KeyCode::CURSOR_DOWN, ModifierFlag::CONTROL_L
+        </autogen>
+    </item>
+    
+    <item>
         <name>cmd + ScrollUp/Down opens exposé</name>
         <identifier>private.cmd_scrollupdown_exposee</identifier>
         <autogen>
