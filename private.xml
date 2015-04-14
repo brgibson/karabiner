@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>cmd + LClick/RClick changes mac workspaces</name>
+        <identifier>private.cmd_lclick_rclick</identifier>
+        <autogen>
+            __KeyToKey__
+            PointingButton::LEFT, ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+            __KeyToKey__
+            PointingButton::RIGHT, ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+            __ScrollWheelToKey__
+            ScrollWheel::UP, ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+            __ScrollWheelToKey__
+            ScrollWheel::DOWN, ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L
+        </autogen>
+    </item>
+    
+    <item>
+        <name>cmd/ctrl + MClick opens exposé</name>
+        <identifier>private.mclick_expose</identifier>
+        <autogen>
+            __KeyToKey__
+            PointingButton::MIDDLE, ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+            __KeyToKey__
+            PointingButton::MIDDLE, ModifierFlag::CONTROL_L,
+            KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L
+        </autogen>
+    </item>
+    
+    <item>
+        <name>ctrl + LClick/RClick changes mac workspaces</name>
+        <identifier>private.ctrl_lclick_rclick</identifier>
+        <autogen>
+            __KeyToKey__
+            PointingButton::LEFT, ModifierFlag::CONTROL_L,
+            KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+            __KeyToKey__
+            PointingButton::RIGHT, ModifierFlag::CONTROL_L,
+            KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+            __ScrollWheelToKey__
+            ScrollWheel::UP, ModifierFlag::CONTROL_L,
+            KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L
+        </autogen>
+        <autogen>
+            __ScrollWheelToKey__
+            ScrollWheel::DOWN, ModifierFlag::CONTROL_L,
+            KeyCode::CURSOR_DOWN, ModifierFlag::CONTROL_L
+        </autogen>
+    </item>
+</root>
